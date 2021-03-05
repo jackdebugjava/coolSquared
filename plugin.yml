@@ -1,0 +1,17 @@
+name: coolSquared
+main: io.github.jackdebugjava
+version: 1.0
+api-version: 1.16.5
+commands:
+   amigay:
+      description: Tells you if you are gay
+      usage: /<command>
+      permission: coolSquared.all
+   insult:
+      description: Insults a player
+      usage: /<command> <player>
+      permission: coolSquared.all
+permissions:
+  coolSquared.all:
+    description: Default perms
+    default: true
